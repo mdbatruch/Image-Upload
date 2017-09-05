@@ -1,0 +1,25 @@
+{
+    "appTitle" : "Image App",
+    "uploadsFolder" : "uploads/",
+    "smallFolder" : "uploads/small/",
+    "mediumFolder" : "uploads/medium/",
+    "largeFolder" : "uploads/large/",
+    "randomizeFilenames" : true,
+    "allowedFileTypes" : "image/jpeg,image/png,image/gif",
+    "maxFileSize" : 5242880,
+    "imageQuality" : 8,
+    "imageSize" : {
+        "small" : 300,
+        "medium" : 640,
+        "large" : 940
+    },
+    
+    "db": {
+        "host" : "localhost",
+        "user" : "n00363842",
+        "password" : "localhost",
+        "name" : "humber-wddm"
+    },
+    
+    "loginToken" : "fdshfksdhfsdjkfdshfskdnsfl"
+}
