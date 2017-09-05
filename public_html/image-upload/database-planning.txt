@@ -1,0 +1,14 @@
+image_app_content
+-----------------
+id                  INT             NOT NULL    PRIMARY_KEY AI
+filename            VARCHAR(255)    NOT NULL    UNIQUE
+title               VARCHAR(255)    NULL
+description         TEXT            NULL
+user_id             INT             NOT NULL
+created_date        TIMESTAMP       NOT NULL    CURRENT_TIMESTAMP
+
+image_app_users
+---------------
+id                  INT             NOT NULL    PRIMARY_KEY AI
+email               VARCHAR(255)    NOT NULL    UNIQUE
+password            VARCHAR(255)    NOT NULL
